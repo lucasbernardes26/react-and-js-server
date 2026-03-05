@@ -1,16 +1,72 @@
-# React + Vite
+# 🚀 React & JS Server
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto full-stack que demonstra a integração entre um frontend moderno construído com **React** e um backend robusto utilizando **Node.js**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 Sobre o Projeto
 
-## React Compiler
+O **React & JS Server** foi desenvolvido para iniciar meus estudos de integração entre front-end e back-end. O projeto foca em uma arquitetura limpa e na facilidade de comunicação entre o cliente e o servidor.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+### Frontend
+* **React.js**: Biblioteca para construção de interfaces.
+* **Axios**: Cliente HTTP para chamadas à API.
+* **Markdown**: Para documentação.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+* **Node.js**: Ambiente de execução JavaScript.
+* **Express**: Framework web para o servidor.
+* **CORS**: Gerenciamento de permissões de acesso.
+
+---
+
+## ⚙️ Instalação e Execução
+
+Para rodar este projeto localmente, siga os passos abaixo:
+
+### 1. Clonar o Repositório
+```bash
+git clone [https://github.com/lucasbernardes26/react-and-js-server.git](https://github.com/lucasbernardes26/react-and-js-server.git)
+cd react-and-js-server ```
+```
+
+### 2. Configurar o Backend (Server)
+```bash
+// Entre na pasta do servidor
+cd server
+
+// Instale as dependências
+npm install
+
+// Inicie o servidor
+npm start
+```
+
+### 3. Configurar o Frontend (Client)
+```bash
+// Em um novo terminal, entre na pasta do cliente
+cd client
+
+//  Instale as dependências
+npm install
+
+// Inicie a aplicação React
+npm start
+```
+
+### 4. Estrutura de Pastas
+
+```bash
+react-and-js-server/
+├── client/              # Pasta do Frontend (React)
+│   ├── src/             # Componentes, Hooks e Telas
+│   └── package.json     # Dependências do React
+├── server/              # Pasta do Backend (Node.js)
+│   ├── routes/          # Definição de rotas da API
+│   ├── controllers/     # Lógica de negócio
+│   └── index.js         # Ponto de entrada do servidor
+├── .gitignore           # Arquivos ignorados pelo Git
+└── README.md            # Documentação do projeto
+```
